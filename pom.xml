@@ -34,6 +34,11 @@
             </goals>
             <configuration>
               <sourceDirectory>${basedir}/src/main/resources</sourceDirectory>
+              <outputDirectory>${project.build.directory}/generated-sources/antlr4/com/ranceworks/antlryaml</outputDirectory>
+              <arguments>
+                <argument>-package</argument>
+                <argument>com.ranceworks.antlryaml</argument>
+              </arguments>
             </configuration>
           </execution>
         </executions>
